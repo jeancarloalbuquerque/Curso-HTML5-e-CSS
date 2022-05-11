@@ -1,13 +1,4 @@
 @charset "UTF-8";
-<<<<<<< HEAD
-
-body{
-    background-color:aliceblue;
-    color: black
-}
-
-p{
-=======
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 @font-face {
@@ -30,16 +21,10 @@ div#interface {
 }
 
 p {
->>>>>>> parent of 6c4fc91 (Mudança pastas)
     text-align: justify;
     text-indent: 30px;
 }
 
-<<<<<<< HEAD
-/*Formatação de imagens com legendas*/
-
-figure.foto-legenda{
-=======
 a {
     color: #606060;
     text-decoration: none;
@@ -79,66 +64,35 @@ header#cabecalho h2 {
 /*Formatação de imagens com legendas*/
 
 figure.foto-legenda {
->>>>>>> parent of 6c4fc91 (Mudança pastas)
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;
 }
 
-<<<<<<< HEAD
-figure.foto-legenda img{
-=======
 figure.foto-legenda img {
->>>>>>> parent of 6c4fc91 (Mudança pastas)
     width: 100%;
     height: 100%;
 }
 
-<<<<<<< HEAD
-figure.foto-legenda figcaption{
-=======
 figure.foto-legenda figcaption {
->>>>>>> parent of 6c4fc91 (Mudança pastas)
     opacity: 0;
     position: absolute;
     top: 0px;
     background-color: rgba(0, 0, 0, .2);
     color: white;
-<<<<<<< HEAD
-    width:100%;
-    height:100%;
-=======
     width: 100%;
     height: 100%;
->>>>>>> parent of 6c4fc91 (Mudança pastas)
     padding: 10px;
     box-sizing: border-box;
     transition: opacity 1s;
 }
 
-<<<<<<< HEAD
-figure.foto-legenda:hover figcaption{
-=======
 figure.foto-legenda:hover figcaption {
->>>>>>> parent of 6c4fc91 (Mudança pastas)
     opacity: 1;
 }
 
 /*Formatação do menu*/
 
-<<<<<<< HEAD
-
-
-nav#menu ul{
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top: -10px;
-    left: 50%;
-}
-
-nav#menu li{
-=======
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
@@ -148,32 +102,11 @@ nav#menu ul {
 }
 
 nav#menu li {
->>>>>>> parent of 6c4fc91 (Mudança pastas)
     display: inline-block;
     background-color: #ebebeb;
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
-<<<<<<< HEAD
-    box-shadow: 2px 2px 3px rgba(0,0,0,.4);
-}
-
-nav#menu li:hover{
-    background-color: #bdbdbd
-}
-
-nav#menu h1{
-    display: none;
-}
-
-nav#menu a{
-    color:black;
-    text-decoration: none;
-}
-
-nav#menu a:hover{
-    color:white;
-=======
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
 }
 
@@ -309,5 +242,4 @@ footer#rodape {
 
 footer#rodape p {
     text-align: center;
->>>>>>> parent of 6c4fc91 (Mudança pastas)
 }
