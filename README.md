@@ -1,17 +1,66 @@
 
-![j](https://user-images.githubusercontent.com/22244637/167503223-7b3eb6bf-dafd-45df-9874-80b6d55c5380.PNG)
-
-[Acesse meu Site](https://jeancarloalbuquerque.wordpress.com)
-
-[Manual de Emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
-
 # Curso de Git e GitHub!
+Curso de HTML5 e CSS3 por Gustavo Guanabara do Curso em Vídeo.
 
-## Primeiro Repositório
+# Links & Referências
 
- Repositório criado na aula do Gustavo Guanabara.
- Editei essa linha através do GitHub
- 
+## Materiais 
+
+* [Repositório no GitHub](https://github.com/gustavoguanabara/html-css)
+* [Repositório Público](https://gustavoguanabara.github.io/)
+
+## Referências Online
+
+* [Mozilla Developer Network](https://developer.mozilla.org/pt-BR/docs/Web/Reference) -> Referênca da Mozilla, em português.
+* [W3C Standards](https://html.spec.whatwg.org/)
+* [WHATWG Living Standard](https://html.spec.whatwg.org/)
+* [W3 Schools ❤️](https://www.w3schools.com/)
+* [Manual de Emojis ☑️](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+* [Cummon Mark](https://commonmark.org/help/) -> Referência a linguagem MarkDown Cummon. 
+> *OBS: O GitHub usa uma especialização dessa liguagem.*
+* [GitHub Flavored MarkDown](https://github.github.com/gfm/)
+
+## Links Interessantes
+### Geral
+
+* [IP Location](www.iplocation.net) -> Descobrir o seu IP
+### Sites de imagens com licenças livres
+   * [Unsplash](Unsplash.com) 
+   * [Pexels](https://pexels.com)
+* [Recode](https://recode.org.br/) -> Projeto social de formação em tecnologias.
+### Favicons e Ícones
+   * [Icon Archive](https://iconarchive.com) -> Repositório de Ícones
+   * [Favicon CC](https://www.favicon.cc/) -> Desenhar Favicon.
+   * [Favicon IO](https://favicon.io/) -> Gerar Favicon a partir de texto, imagem ou emoji.
+
+
+# Anotações de Aulas
+
+
+## Como a Internet chega na minha casa? 
+
+* [VOX, Como a Internet Funciona](https://www.youtube.com/watch?v=TNQsmPf24go&ab_channel=Vox)
+
+## Domínio X Hospedagem 
+
+**Domínio** é um nome único do seu site, geralmente pago anualemntem e possuem varios **TLD**'s.
+
+**Hospedagem** é o local para armazenar os arquivos, geralmente pago mensalmente.
+
+> Uma URL é formada por um subdomínio, domínio, TLD e um caminho. Por exemplo, a url `www.github.com/gustavoguanabara` é composta por:
+> + Subdomínio: `www.`
+> + Domínio: `github`
+> + TLD: `.com`
+> + Caminho: `/gustavoguanabara`
+
+
+## Direitos Autorais 
+Unsplash.com
+
+
+
+
+--- 
 ## Exemplos de Lingugem MarkDown
 
 ### Lista Numerada
