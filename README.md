@@ -54,8 +54,6 @@ Curso de HTML5 e CSS3 por Gustavo Guanabara do Curso em Vídeo.
 > + Caminho: `/gustavoguanabara`
 
 
-## Direitos Autorais 
-Unsplash.com
 
 
 
