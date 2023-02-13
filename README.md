@@ -21,21 +21,25 @@ Curso de HTML5 e CSS3 por Gustavo Guanabara do Curso em Vídeo.
 * [GitHub Flavored MarkDown](https://github.github.com/gfm/)
 
 ## Links Interessantes
-### Geral
+**Design**
+
+* [Cédric Pereira](cedricpereira.com) -> Designer Monnumet Valley, Tesla e Dezzer
+
+**Geral**
 
 * [IP Location](www.iplocation.net) -> Descobrir o seu IP
-### Sites de imagens com licenças livres
+
+**Sites de imagens com licenças livres**
    * [Unsplash](Unsplash.com) 
    * [Pexels](https://pexels.com)
 * [Recode](https://recode.org.br/) -> Projeto social de formação em tecnologias.
-### Favicons e Ícones
-   * [Icon Archive](https://iconarchive.com) -> Repositório de Ícones
+
+**Favicons e Ícones**   
+* [Icon Archive](https://iconarchive.com) -> Repositório de Ícones
    * [Favicon CC](https://www.favicon.cc/) -> Desenhar Favicon.
    * [Favicon IO](https://favicon.io/) -> Gerar Favicon a partir de texto, imagem ou emoji.
 
-
 # Anotações de Aulas
-
 
 ## Como a Internet chega na minha casa? 
 
