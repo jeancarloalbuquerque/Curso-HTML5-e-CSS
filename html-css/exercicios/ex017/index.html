@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Fontes Externas
+    </title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+        @font-face {
+            font-family: littlebird;
+            src: url(fonts/littlebird.ttf);
+        }
+
+        @font-face {
+            font-family: love-larry;
+            src: url(fonts/love-larry.ttf);
+        }
+        
+        h1 {
+            font-family: Oswald, sans-serif;
+        }
+
+        p{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, monospace;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Usando Fontes Externas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aperiam nesciunt laboriosam expedita accusamus quibusdam voluptatum eligendi, magni asperiores corporis dolor optio eius earum harum, incidunt cumque porro fuga ipsum.</p>
+
+    <h1 style="font-family: love-larry">Usando Fontes Externas Baixadas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae fugiat ipsam ut perspiciatis unde atque facilis, vero ab nostrum voluptates exercitationem, sit eos autem error expedita nisi. Nostrum, odit rerum.</p>
+</body>
+</html>
