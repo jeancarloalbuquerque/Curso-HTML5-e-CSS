@@ -32,7 +32,14 @@ Curso de HTML5 e CSS3 por Gustavo Guanabara do Curso em Vídeo.
    * [Icon Archive](https://iconarchive.com) -> Repositório de Ícones
    * [Favicon CC](https://www.favicon.cc/) -> Desenhar Favicon.
    * [Favicon IO](https://favicon.io/) -> Gerar Favicon a partir de texto, imagem ou emoji.
+### Paletas de Cores
+  * [Adobe Color Wheel](https://color.adobe.com/)
+  * [Coolors](https://coolors.co/)
 
+### Detector de Fontes
+  * [What Font Is](https://www.whatfontis.com/)
+  * [Font Squirrel](https://www.fontsquirrel.com/)
+  * [My Fonts](https://www.myfonts.com/)
 
 # Anotações de Aulas
 
