@@ -1,10 +1,17 @@
 
-# Curso de Git e GitHub!
-Curso de HTML5 e CSS3 por Gustavo Guanabara do Curso em Vídeo.
+# Introdução
+Esse repositório tem como objetivo documentar o meu desenvolvimento pessoal durante a realização do [Curso de HTML5 e CSS3](https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) ministrado pelo [Professor Gustavo Guanabara](https://about.me/guanabara) através da projeto [Curso em Vídeo](https://www.cursoemvideo.com/).
+
+# Projetos Finalizados
+## 1. Website de Artigos sobre Tecnologia 
+O projeto constitui em replicar uma página genérica contendo um artigo sobre tecnologia.
+
+[Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d010/Site%20Android/)
+
 
 # Links & Referências
 
-## Materiais 
+## Material do Curso
 
 * [Repositório no GitHub](https://github.com/gustavoguanabara/html-css)
 * [Repositório Público](https://gustavoguanabara.github.io/)
@@ -38,79 +45,18 @@ Curso de HTML5 e CSS3 por Gustavo Guanabara do Curso em Vídeo.
 * [Icon Archive](https://iconarchive.com) -> Repositório de Ícones
    * [Favicon CC](https://www.favicon.cc/) -> Desenhar Favicon.
    * [Favicon IO](https://favicon.io/) -> Gerar Favicon a partir de texto, imagem ou emoji.
-### Paletas de Cores
+   
+**Paletas de Cores**
   * [Adobe Color Wheel](https://color.adobe.com/)
   * [Coolors](https://coolors.co/)
 
-### Detector de Fontes
+**Detector de Fontes**
   * [What Font Is](https://www.whatfontis.com/)
   * [Font Squirrel](https://www.fontsquirrel.com/)
   * [My Fonts](https://www.myfonts.com/)
 
-# Anotações de Aulas
 
-## Como a Internet chega na minha casa? 
+**Como a Internet chega na minha casa?**
 
 * [VOX, Como a Internet Funciona](https://www.youtube.com/watch?v=TNQsmPf24go&ab_channel=Vox)
 
-## Domínio X Hospedagem 
-
-**Domínio** é um nome único do seu site, geralmente pago anualemntem e possuem varios **TLD**'s.
-
-**Hospedagem** é o local para armazenar os arquivos, geralmente pago mensalmente.
-
-> Uma URL é formada por um subdomínio, domínio, TLD e um caminho. Por exemplo, a url `www.github.com/gustavoguanabara` é composta por:
-> + Subdomínio: `www.`
-> + Domínio: `github`
-> + TLD: `.com`
-> + Caminho: `/gustavoguanabara`
-
-
-
-
-
-
---- 
-## Exemplos de Lingugem MarkDown
-
-### Lista Numerada
-1. Teste
-2. Teste
-   1. Teste
-   2. Teste
-3. Teste
-
-
-### Lista Marcada
-* Teste
-* Teste
-   * Teste
-   * Teste
-* Teste
-
-
-### Lista de Tarefas
-- [x] Criar página principal
-- [ ] Criar pagina da loja
-
-
-### Tabelas
-Num | Nome | Nota
----|---|---
-1 | Jean | 10
-
-
-### Linhas de Código
-Como eu uso o comando `input('Digite um número')` no **Python** 😱
-
-```
-n = int(input('Digite um número'))
-
-if n % 2 == 0:
- print('Número par')
- 
-else:
- print('Número ímpar')
-```
-
-###
