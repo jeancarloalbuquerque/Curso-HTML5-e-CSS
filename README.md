@@ -8,6 +8,11 @@ O projeto constitui em replicar uma página genérica contendo um artigo sobre t
 
 [Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d010/Site%20Android/)
 
+## 2. Astronauta no Espaço
+O projeto consiste em sobrepor com uma imagem de um astronauta a um background com uma imagem do espaço. O desafio nesse peojeto é posicionar as imagens de maneira adequada e manter a responsividade em qualquer tela.
+
+[Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d011)
+
 
 # Links & Referências
 
