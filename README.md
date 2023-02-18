@@ -13,6 +13,10 @@ O projeto consiste em sobrepor com uma imagem de um astronauta a um background c
 
 [Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d011)
 
+## 3. Cordel Moderno
+Uma poesia em estilo cordel com imagens com efeito paralax
+
+[Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d012)
 
 # Links & Referências
 
