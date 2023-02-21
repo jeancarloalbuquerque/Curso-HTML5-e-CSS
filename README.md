@@ -2,21 +2,21 @@
 # Introdução
 Esse repositório tem como objetivo documentar o meu desenvolvimento pessoal durante a realização do [Curso de HTML5 e CSS3](https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) ministrado pelo [Professor Gustavo Guanabara](https://about.me/guanabara) através da projeto [Curso em Vídeo](https://www.cursoemvideo.com/).
 
-# Projetos Finalizados
+# Projetos Realizados no Curso
 ## 1. Website de Artigos sobre Tecnologia 
 O projeto constitui em replicar uma página genérica contendo um artigo sobre tecnologia.
 
-[Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d010/Site%20Android/)
+> [Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d010/Site%20Android/)
 
 ## 2. Astronauta no Espaço
 O projeto consiste em sobrepor com uma imagem de um astronauta a um background com uma imagem do espaço. O desafio nesse peojeto é posicionar as imagens de maneira adequada e manter a responsividade em qualquer tela.
 
-[Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d011)
+> [Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d011)
 
 ## 3. Cordel Moderno
 Uma poesia em estilo cordel com imagens com efeito paralax
 
-[Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d012)
+> [Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d012)
 
 # Links & Referências
 
