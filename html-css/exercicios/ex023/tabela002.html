@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Estados mais populosos do Brasil</title>
+    <style>
+        body{
+            background-color: #131313;
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        table {
+            width: 400px;
+            border: 3px solid white;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th {
+            border: 1px solid white;
+            padding: 8px;
+            text-align: center;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -2px;
+            background-color: white;            
+            border: 1px solid white;
+        }
+        thead, tfoot {
+            background-color: white;
+            color: #131313;
+        }
+        tbody tr:nth-child(even){
+            background-color: #262626;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a::after{
+            content: " \1F517";
+        }
+    </style>
+</head>
+<body> 
+    <h1>População do Brasil por Unidade Federativa.</h1>
+    <!--
+        TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    -->
+
+    <table>
+        <thead>
+            <th scope="col">Posição</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+        </thead>
+        <tfoot>
+            <th scope="row">Total</th>
+            <td></td>
+            <td>219 109 008</td>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+            </tr>
+            <tr> 
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td>10 444 526</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td>10 693 929</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernambuco</td>
+                <td>8 796 448</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td>8 452 381</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td>7 581 051</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>6 248 436</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Goiás</td>
+                <td>6 003 788</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Maranhão</td>
+                <td>6 574 789</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Espírito Santo</td>
+                <td>3 514 952</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Paraíba</td>
+                <td>3 766 528</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Amazonas</td>
+                <td>3 483 985</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Mato Grosso</td>
+                <td>3 035 122</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Rio Grande do Norte</td>
+                <td>3 168 027</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Piauí</td>
+                <td>3 118 360</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Alagoas</td>
+                <td>3 1120 494</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Distrito Federal</td>
+                <td>2 923 369</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Mato Grosso do Sul</td>
+                <td>2 449 024</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Sergipe</td>
+                <td>2 068 017</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Rondônia</td>
+                <td>1 562 409</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Tocantins</td>
+                <td>1 383 445</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Acre</td>
+                <td>733 559</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Amapá</td>
+                <td>669 526</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Roraima</td>
+                <td>450 479</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Fonte: <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o">Wikipedia</a>, acesso em 21/02/2023.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eaque laborum praesentium accusantium dolorem vero beatae, numquam officia facilis aspernatur ullam eum explicabo deleniti ipsam recusandae. Eius inventore delectus dignissimos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur maiores obcaecati eius libero dolorum totam aliquam distinctio eligendi at magni fuga delectus, eveniet quibusdam officiis fugiat in labore itaque quod? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore labore natus vel tempora facilis veniam alias unde eum accusantium qui, tenetur non adipisci. Sunt quos obcaecati aut consequatur. Modi, illum.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eaque laborum praesentium accusantium dolorem vero beatae, numquam officia facilis aspernatur ullam eum explicabo deleniti ipsam recusandae. Eius inventore delectus dignissimos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur maiores obcaecati eius libero dolorum totam aliquam distinctio eligendi at magni fuga delectus, eveniet quibusdam officiis fugiat in labore itaque quod? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore labore natus vel tempora facilis veniam alias unde eum accusantium qui, tenetur non adipisci. Sunt quos obcaecati aut consequatur. Modi, illum.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eaque laborum praesentium accusantium dolorem vero beatae, numquam officia facilis aspernatur ullam eum explicabo deleniti ipsam recusandae. Eius inventore delectus dignissimos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur maiores obcaecati eius libero dolorum totam aliquam distinctio eligendi at magni fuga delectus, eveniet quibusdam officiis fugiat in labore itaque quod? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore labore natus vel tempora facilis veniam alias unde eum accusantium qui, tenetur non adipisci. Sunt quos obcaecati aut consequatur. Modi, illum.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eaque laborum praesentium accusantium dolorem vero beatae, numquam officia facilis aspernatur ullam eum explicabo deleniti ipsam recusandae. Eius inventore delectus dignissimos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur maiores obcaecati eius libero dolorum totam aliquam distinctio eligendi at magni fuga delectus, eveniet quibusdam officiis fugiat in labore itaque quod? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore labore natus vel tempora facilis veniam alias unde eum accusantium qui, tenetur non adipisci. Sunt quos obcaecati aut consequatur. Modi, illum.</p>
+</body>
+</html>
