@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(imagens/fundo-madeira.jpg);
+    background-image: url(../imagens/fundo-madeira.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body{
 }
 
 section#telefone{
-    background-image: url(imagens/frame-iphone.png);
+    background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
     position: absolute;
     height: 627px;
@@ -42,7 +42,7 @@ section#menu {
     text-align: right;
 }
 
-section#menu > img {
+section#menu > a > img {
     height: 50px;
     border-radius: 50%;
     margin: 15px;
@@ -50,7 +50,7 @@ section#menu > img {
     box-sizing: border-box;
 }
 
-section#menu > img:hover {
+section#menu > a > img:hover {
     box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.507);
     transform: translate(-5px);
     transition: transform .2s, box-shadow .2s;
