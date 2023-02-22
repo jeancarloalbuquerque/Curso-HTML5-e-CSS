@@ -1,4 +1,3 @@
-
 # Introdução
 Esse repositório tem como objetivo documentar o meu desenvolvimento pessoal durante a realização do [Curso de HTML5 e CSS3](https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) ministrado pelo [Professor Gustavo Guanabara](https://about.me/guanabara) através da projeto [Curso em Vídeo](https://www.cursoemvideo.com/).
 
