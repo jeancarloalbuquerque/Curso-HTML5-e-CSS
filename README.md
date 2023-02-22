@@ -18,6 +18,11 @@ Uma poesia em estilo cordel com imagens com efeito paralax
 
 > [Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d012)
 
+### 4. Redes Sociais
+Um celular virtual contendo as minhas principais redes sociais.
+
+> [Página do projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-04/d013)
+
 # Links & Referências
 
 ## Material do Curso
