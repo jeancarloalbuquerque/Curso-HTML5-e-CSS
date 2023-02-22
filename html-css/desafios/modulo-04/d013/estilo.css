@@ -42,7 +42,7 @@ section#menu {
     text-align: right;
 }
 
-section#menu img {
+section#menu > img {
     height: 50px;
     border-radius: 50%;
     margin: 15px;
@@ -50,7 +50,7 @@ section#menu img {
     box-sizing: border-box;
 }
 
-section#menu img:hover {
+section#menu > img:hover {
     box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.507);
     transform: translate(-5px);
     transition: transform .2s, box-shadow .2s;
