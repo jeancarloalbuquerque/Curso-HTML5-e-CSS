@@ -39,13 +39,18 @@ iframe#tela{
 }
 
 section#menu {
-    text-align: right;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+
+
 }
 
 section#menu > a > img {
-    height: 50px;
+    height: 40px;
     border-radius: 50%;
-    margin: 15px;
     box-shadow: 2px 4px 5px #00000099;
     box-sizing: border-box;
 }
