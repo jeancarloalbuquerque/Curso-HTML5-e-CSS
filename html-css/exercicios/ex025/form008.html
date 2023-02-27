@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="" method="GET" autocomplete="on">
+
+        <P>
+            <label for="num1">Digite um número: </label>
+            <input type="range" name="num1" id="num1_input" value="0" oninput="num1_out.innerHTML = Number(num1_input.value), somar()">
+            <output id="num1_out">0</output>
+        </P>
+        
+        <P>
+            <label for="num2">Digite outro número: </label>
+            <input type="range" name="num2" id="num2_input" value="0" oninput="num2_out.innerHTML = Number(num2_input.value), somar()">
+            <output id="num2_out">0</output>
+        </P>
+        
+        <p>
+            <label for="soma-id">Soma: </label>
+            <output name="soma" id="soma_id">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <p></p>
+   
+    <script>
+        function somar() {
+            let soma = Number(num1_input.value) + Number(num2_input.value)
+            soma_id.innerHTML = soma
+        }
+    </script>
+</body>
+</html>
+
