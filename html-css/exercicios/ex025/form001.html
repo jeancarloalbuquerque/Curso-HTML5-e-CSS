@@ -13,10 +13,18 @@
 </head>
 <body>
     <h1>Meu primeiro Forumulário</h1>
-    <form action="">
-        <p>Nome: <input type="text" name="noem" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome id="sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+    <form action="cadastro.py" method="POST" autocomplete="off">
+        <p>
+            <label for="id-nome">Nome: </label>
+            <input type="text" name="nome" id="id-nome">
+        </p>
+        <p>
+            <label for="id-sobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="id-sobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
     </form>
 </body>
 </html>
