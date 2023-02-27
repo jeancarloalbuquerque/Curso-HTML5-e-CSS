@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.py" method="POST">
+        <p>
+            <label for="color-id">Cor: </label>
+            <input type="color" name="color" id="color-id">
+        </p>
+
+        <p>
+            <label for="range-id">Nível de Satisfação (1-10): </label>
+            <input type="range" name="range" id="range-id" min="1" max="10" value="10">
+        </p>
+
+        <p>
+            <label for="foto-id">Foto de Perfil</label>
+            <input type="file" name="foto" id="foto-id">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <p></p>
+   
+</body>
+</html>
+
