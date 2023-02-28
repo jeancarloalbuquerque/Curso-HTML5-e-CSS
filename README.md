@@ -17,12 +17,12 @@ Uma poesia em estilo cordel com imagens com efeito paralax
 
 > [Página do Projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-02/d012)
 
-### 4. Redes Sociais
+## 4. Redes Sociais
 Um celular virtual contendo as minhas principais redes sociais.
 
 > [Página do projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/desafios/modulo-04/d013)
 
-### 5. Seguindo a Orientação da Tela
+## 5. Seguindo a Orientação da Tela
 Uma página html que adapta o estilo CSS a orientação da tela do usuário, por meio de Media Queries e Media Features.
 
 > [Página do projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/exercicios/ex026/mq002)
