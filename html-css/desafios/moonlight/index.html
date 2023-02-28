@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonLight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="">
+        <img src="imagens/stars.png" id="stars">
+        <img src="imagens/moon.png" id="moon">
+        <img src="imagens/mountains_behind.png" id="montainsBehind">
+        <h2 id="text">Moon Light</h2>
+        <a href="#explore" id="button">Explore</a>
+        <img src="imagens/mountains_front.png" id="moutainsFront">
+    </section>
+    <div class="article" id="explore">
+        <h2>Efeito Parallax Scrolling</h2>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quos blanditiis aliquid pariatur dolorum obcaecati aliquam ipsa itaque beatae vero numquam tempore nesciunt optio assumenda non deserunt mollitia explicabo? Magni!</span><span>Culpa sit natus placeat, enim quos iure rem ex iusto minus quisquam possimus, ea illum ratione vero labore? Consequatur aliquid quis ratione labore quia corporis dolor molestias, distinctio eos sed?</span></p>
+        <br>
+        <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sunt soluta minus consectetur quaerat eius, odio debitis? Natus placeat, cum itaque eveniet nobis enim iste veritatis harum molestiae mollitia porro?</span><span>Nisi, excepturi fugiat reprehenderit ex fuga qui veniam aperiam obcaecati distinctio eaque sed dicta sunt tempora praesentium optio non alias atque ut officia molestiae eos error natus enim. At, sunt!</span></p>
+        <br>
+        <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nobis aliquam facere distinctio corrupti voluptatibus asperiores animi ea, officia quidem dolor praesentium, ut nostrum velit error expedita laboriosam iure eveniet?</span><span>Culpa officiis eaque commodi impedit aperiam numquam maxime repudiandae rem totam vitae minima, modi reprehenderit nam doloremque exercitationem quasi, incidunt fugiat possimus? Aliquid beatae sed dignissimos alias id recusandae error.</span></p>
+        <br>
+        <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non modi quos, aspernatur magni magnam fugiat molestias consectetur dolores corporis ipsam minus tempora, qui nostrum, nobis beatae consequuntur exercitationem ab ex.</span><span>Dicta itaque, voluptatum inventore voluptas optio doloribus odit omnis excepturi. Cupiditate at repudiandae ipsa explicabo? Quia consequuntur recusandae corrupti debitis corporis, dignissimos veniam quam, quaerat, cumque aliquid quidem ipsa explicabo.</span></p>
+        <br>
+        <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas explicabo ea ad, ducimus omnis aspernatur facilis debitis voluptatem eum ipsa iure distinctio pariatur ullam quibusdam! Autem iure amet ratione asperiores?</span><span>Accusantium totam dolore, nobis consectetur ad eius provident consequatur enim porro perferendis sint dignissimos sapiente voluptatibus repellendus pariatur aliquam maiores fugiat aperiam minus beatae a quidem minima vero! Numquam, maiores.</span></p>
+        <br>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sit, nemo voluptatum nobis sequi sed ad fuga, eaque animi incidunt sint fugit. Ea, expedita id vero at autem magnam nulla?</span><span>Natus esse eaque cum voluptatum, possimus tenetur accusamus in culpa voluptatibus ipsum tempora corrupti veniam quis. Iste veritatis consequuntur et recusandae nemo dolorum aspernatur suscipit numquam sunt, esse aliquam. Error.</span></p>
+    </div>
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let montainsBehind = document.getElementById('montainsBehind');
+        let text = document.getElementById('text');
+        let button = document.getElementById('button');
+        let montainsFront = document.getElementById('montainsFront');
+        let header = document.getElementById('header');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.top = value * 1.05 + 'px';
+            moon.style.top = value * 1.15 + 'px';
+            montainsBehind.style.top = value * 0.5 + 'px';
+            montainsFront.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+            text.style.marginTop = value * 1.5 + 'px';
+            button.style.marginTop = value * 1.5 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+    </script>
+</body>
+</html>
