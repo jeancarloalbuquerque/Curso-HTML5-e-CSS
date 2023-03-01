@@ -11,6 +11,7 @@
 body {
     min-height: 100vh;
     background: linear-gradient(#2b1055, #7597de);
+    background-repeat: no-repeat;
     overflow-x: hidden;
 }
 header {
@@ -50,9 +51,10 @@ header ul li a {
     padding: 6px 15px;
     color: white;
     border-radius: 20px;
+    transition: 0.5s;
 }
 
-header ul li a:hover , header ul li a .active {
+header ul li a:hover , header ul li a.active {
     background-color: white;
     color: #2b1055;
 }
@@ -86,11 +88,12 @@ section img#moutainsFront {
 }
 
 #text {
+    right: -150px;
     position: absolute;
     color: white;
     white-space: nowrap;
     font-size: 7.5vw;
-    z-index: 9;
+    z-index: 0;
 }
 #button {
     text-decoration: none;
@@ -120,6 +123,7 @@ section::before {
     padding: 60px;
     background-color: #1c0522;
     color: white;
+    z-index: 11;
 }
 
 .article h2{
