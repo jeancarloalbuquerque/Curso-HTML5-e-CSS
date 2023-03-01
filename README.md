@@ -27,6 +27,10 @@ Uma página html que adapta o estilo CSS a orientação da tela do usuário, por
 
 > [Página do projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/exercicios/ex026/mq002)
 
+## 6. Mobile First
+
+> [Página do projeto](https://jeancarloalbuquerque.github.io/Curso-HTML5-e-CSS/html-css/exercicios/ex026/mq004)
+
 # Links & Referências
 
 ## Material do Curso
