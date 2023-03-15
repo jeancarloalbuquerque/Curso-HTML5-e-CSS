@@ -29,7 +29,7 @@ i#icon-menu:hover {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu ul{
